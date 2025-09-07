@@ -1,0 +1,140 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FEFBF5;
+    color: #000;
+}
+
+/* Header and Navigation */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.main-nav {
+    display: flex;
+    gap: 40px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.logo {
+    margin: 0 50px;
+}
+
+.logo img {
+    width: 150px; /* Adjust size as needed */
+}
+
+/* Hero Section */
+.hero-background {
+    background: linear-gradient(to bottom, #F9DAB9, #FEFBF5);
+    padding-bottom: 100px;
+}
+
+.hero-section {
+    position: relative;
+    text-align: left;
+    max-width: 1200px;
+    margin: 40px auto 0;
+    padding: 0 50px;
+}
+
+.hero-text h1 {
+    font-family: 'Lora', serif;
+    font-size: 5rem;
+    font-weight: 700;
+    max-width: 700px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.hero-image {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-40%);
+}
+
+.hero-image img {
+    width: 550px; /* Adjust size as needed */
+}
+
+/* Bottom Section: Form and Map */
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 50px;
+    gap: 100px;
+}
+
+.contact-form-container,
+.contact-info-container {
+    flex: 1;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* Contact Form */
+.contact-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.contact-form-container button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* Contact Info & Map */
+.map-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.map-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.map-link {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #000;
+    font-size: 0.9rem;
+}
